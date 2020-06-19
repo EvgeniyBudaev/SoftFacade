@@ -1,0 +1,105 @@
+@media (max-width: 1100px) {
+  .donate__inner {
+    flex-direction: column;
+  }
+  .donate__images img {
+    margin-bottom: 26px;
+  }
+  .donate__description-events {
+    position: static;
+    margin-top: 32px;
+    margin-bottom: 21px;
+  }
+  .donate__description-events__date {
+    padding-right: 20px;
+    margin-top: 27px;
+  }
+  .donate__description-events__box {
+    padding: 18px 54px 20px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+  .header__empty {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 605px) {
+  .nav {
+    margin-top: 30%;
+  }
+  .footer {
+    padding: 20px 0 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    margin-top: 50%;
+  }
+  .donate__title {
+    font-size: 28px;
+    line-height: 39px;
+  }
+  .donate__description-about__title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .donate__description-about__text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .donate__description-electionDay__title {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .donate__description-events__title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .categories__box--top__title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+@media (max-width: 432px) {
+  .donate__title {
+    position: relative;
+  }
+  .donate__title::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    top: 40px;
+    background-image: url(../images/icon-box.png);
+  }
+}
+
+@media (max-width: 360px) {
+  .footer__inner-menu ul,
+  .footer__inner-social {
+    flex-direction: column;
+  }
+  .footer__inner-menu ul li + li {
+    padding-left: 0;
+  }
+  .footer__inner-social__twitter {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .header__menu {
+    display: flex !important;
+  }
+}
+
