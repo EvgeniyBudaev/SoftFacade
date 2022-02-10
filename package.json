@@ -26,7 +26,7 @@
     "jquery-form-styler": "^2.0.2",
     "magnific-popup": "^1.1.0",
     "mixitup": "^3.3.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1",
     "scrollreveal": "^4.0.6",
     "slick-carousel": "^1.8.1",
